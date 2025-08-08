@@ -1,0 +1,32 @@
+baseURL = "https://cacti-lfs.github.io/"
+languageCode = "fr-fr"
+title = "Loïs"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
+  showReadingTime = true
+  showShareButtons = false
+  showToc = true
+  showBreadCrumbs = true
+
+[menu]
+  [[menu.main]]
+    name = "Projets"
+    url = "/projets/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Compétences"
+    url = "/competences/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Veille"
+    url = "/veille/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
